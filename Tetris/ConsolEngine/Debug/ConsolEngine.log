@@ -1,0 +1,19 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  MyApp.cpp
+D:\My Projects\src_sample\ConsolEngine\MyApp.cpp(122,21): warning C4018: '<': signed/unsigned mismatch
+D:\My Projects\src_sample\ConsolEngine\MyApp.cpp(124,22): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Figure.cpp
+D:\My Projects\src_sample\ConsolEngine\Figure.cpp(163,13): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+  BaseApp.cpp
+D:\My Projects\src_sample\ConsolEngine\PerformanceCounter.h(37,65): warning C4244: 'return': conversion from 'LONGLONG' to 'int', possible loss of data
+D:\My Projects\src_sample\ConsolEngine\PerformanceCounter.h(44,38): warning C4244: 'return': conversion from 'LONGLONG' to 'int', possible loss of data
+D:\My Projects\src_sample\ConsolEngine\BaseApp.cpp(18,33): warning C4838: conversion from 'const int' to 'SHORT' requires a narrowing conversion
+D:\My Projects\src_sample\ConsolEngine\BaseApp.cpp(18,41): warning C4838: conversion from 'const int' to 'SHORT' requires a narrowing conversion
+D:\My Projects\src_sample\ConsolEngine\BaseApp.cpp(19,32): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\My Projects\src_sample\ConsolEngine\BaseApp.cpp(19,44): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\My Projects\src_sample\ConsolEngine\BaseApp.cpp(96,7): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+D:\My Projects\src_sample\ConsolEngine\BaseApp.cpp(98,15): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  Generating Code...
+BaseApp.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  ConsolEngine.vcxproj -> D:\My Projects\src_sample\Debug\ConsolEngine.exe
